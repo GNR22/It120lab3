@@ -222,7 +222,7 @@ def DemoRecursion():
 def DemoMutableImmutable():
     print("\n--- Mutable vs. Immutable & Assignment Semantics ---")
     
-    #mutable lists
+    # mutable lists
     print("Part 1: Lists (Mutable) and Assignment")
     OriginalList = [85, 90, 88]
     ReferenceList = OriginalList         
@@ -244,6 +244,16 @@ def DemoMutableImmutable():
     print(f"MyString is still: {MyString}")
     print(f"NewString is: {NewString}")
     print("Trying to execute MyString[0] = 'H' would raise a TypeError.")
+
+    
+# WHY LISTS ARE MUTABLE AND STRINGS ARE IMMUTABLE
+
+# Lists (Mutable): 
+# Python makes lists as dynamic block of memeory. Meaning it can be change or modified by using an update feature
+
+# 2. Strings (Immutable):
+# Python makes strings as fixed blocks of memory, meaning once it is created you cannot modify it. You can only create it again as a new block of memory
+
 
 
 def Main():
